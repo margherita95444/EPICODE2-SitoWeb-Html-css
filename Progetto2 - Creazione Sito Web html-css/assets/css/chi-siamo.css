@@ -1,0 +1,98 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+.navbar-brand{
+    width: 80px
+}
+
+.btnNav{
+    width: 80px;
+    font-size: 1.2em;
+}
+
+.btn{
+    color: white;
+    background: linear-gradient(lightblue, rgb(97, 144, 226));
+    border:none !important;
+    border-radius: 0px;
+    font-size: 1.3em;
+}
+
+li{
+    font-size: small;
+}
+
+.sub{
+    margin-top: 80px;
+}
+
+img{
+    width: 320px;
+    margin-left: 14px;
+}
+
+.skewDiv{
+    text-align: center;
+    transform: skew(-13deg, 0);
+    padding: 30px;
+    font-size: 1.7em;
+    margin: 30px 10px 0 10px;
+}
+
+.skewDivBlue{
+    background-color: rgb(181, 253, 255);
+}
+
+.bi-check{
+    color:red;
+}
+
+.infoBox{
+    background-color: rgba(221, 214, 214, 0.251);
+    margin: 0 7px;
+    padding-left: 15px;
+    height: 250px;
+}
+
+@media screen and (min-width:768px){
+
+    body{
+        font-size: 0.7em;
+    }
+
+    .navbar-brand{
+        width: 120px;
+    }
+
+    .sub3{
+        margin-top: 63px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    
+    .btnNav{
+        width: 100px;
+        font-size: medium;
+    }
+
+    li{
+        font-size: medium;
+    }
+
+    body{
+        font-size: 0.8em;
+    }
+
+    img{
+        width: 540px;
+    }
+
+    .skewSec{
+       font-size: small;
+    }
+
+}

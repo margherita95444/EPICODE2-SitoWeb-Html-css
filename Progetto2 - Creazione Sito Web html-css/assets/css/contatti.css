@@ -1,0 +1,52 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+.navbar-brand{
+    width: 80px
+}
+
+.btnNav{
+    width: 80px;
+    font-size: 1.2em;
+}
+
+.btn{
+    color: white;
+    background: linear-gradient(lightblue, rgb(97, 144, 226));
+    border:none !important;
+    border-radius: 0px;
+    font-size: 1.3em;
+}
+
+li{
+    font-size: small;
+}
+
+input, textarea{
+    font-size: 1.3em !important;
+}
+
+@media screen and (min-width:768px){
+
+    body{
+        font-size: 0.7em;
+    }
+
+    .navbar-brand{
+        width: 120px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .btnNav{
+        width: 100px;
+        font-size: medium;
+    }
+
+    li{
+        font-size: medium;
+    }
+}

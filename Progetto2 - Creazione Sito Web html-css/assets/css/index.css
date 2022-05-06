@@ -1,0 +1,104 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+.navbar-brand{
+    width: 80px
+}
+
+.btnNav{
+    width: 80px;
+    font-size: 1.2em;
+}
+
+.btn{
+    color: white;
+    background: linear-gradient(lightblue, rgb(97, 144, 226));
+    border:none !important;
+    border-radius: 0px;
+    font-size: 1.3em;
+}
+
+li{
+    font-size: small;
+}
+
+#mainSec{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    color: white;
+    padding: 40px 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px black;
+  }
+
+h2{
+    font-size: 1.1em;
+    text-shadow: 2px 2px 4px black;
+}
+
+#whoDevSec{
+    background-color: rgb(7, 24, 51);/*rgb(26, 26, 84);*/
+    color: white;
+    padding: 40px 0;
+}
+
+.bi-check-circle{
+    color: red;
+    width: 2px;
+}
+
+@media screen and (min-width:768px){
+
+    .navbar-brand{
+        width: 120px;
+    }
+
+    #mainSec{
+        padding: 30px 60px;
+        height: 325px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+
+    li{
+        font-size: medium;
+    }
+
+    .btnNav{
+        width: 100px;
+        font-size: medium;
+    }
+
+    body{
+        font-size: medium;
+    }
+
+    #mainSec{
+        height: 530px;
+    }
+
+    #mainSec>div{
+        width: 600px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    #whyDevSec>div:nth-child(2) {
+        margin-top: 70px !important;
+
+    }
+
+    .notebook{
+        width: 30%;
+    }
+
+}
+
+
+
